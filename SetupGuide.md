@@ -42,7 +42,7 @@ Enter into hello_world file and then make.Two separate examples programs will be
 
 Command:
 
-$ cd pico
+$   cd pico
 
 $ cd pico-examples
 

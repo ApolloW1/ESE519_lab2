@@ -66,3 +66,7 @@ $ ls /dev/tty.*
 Connect to the serial console
 
 $ screen /dev/tty.board_name 115200
+
+
+![IMG_9743](https://user-images.githubusercontent.com/114015725/194969363-413a4ee0-078f-4072-9cf1-d4deac72ad57.jpg)
+

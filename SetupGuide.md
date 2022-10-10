@@ -19,6 +19,13 @@ Command:
 
 $ /bin/bash -c "$(curl -fsSL
 https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+$   echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/apollo/.zprofile
+    
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/apollo/.zprofile
+    
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
 ### 2.2 Install toolchain
 Command:
 

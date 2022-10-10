@@ -46,6 +46,12 @@ $   cd pico
 
 $ cd pico-examples
 
+$ mkdir build
+
+$ cd build
+
+$ cmake ..
+
 $ cd hello_world
 
 $ make -j4

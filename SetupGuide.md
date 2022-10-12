@@ -50,7 +50,7 @@ $ mkdir build
 
 $ cd build
 
-$ usb % export PICO_SDK_PATH=../../pico-sdk
+$ export PICO_SDK_PATH=../../pico-sdk
 
 $ cmake ..
 

@@ -59,6 +59,8 @@ $ cd hello_world
 $ make -j4
 ### 3.2 Run "Hello World" 
 Connect RP2040 to the laptop with a micro-USB cable, while holding down BOOTSEL button. After being connected, release BOOTSEL button and drag-and-drop either the hello_serial.uf2 or hello_usb.uf2 onto the Mass Storage Device.RP2040 will reboot and begin to run the flashed code. 
+
+cp -X blink.uf2 /Volumes/RPI-RP2/
 ### 3.3 See "Hello World" Output
 
 Find the device name by

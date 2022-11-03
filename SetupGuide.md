@@ -1,6 +1,6 @@
 # ESE519_lab2
-Machine: MacBook Pro Apple M1 Pro
-
+Machine: MacBook Pro Apple M1 Pro
+MacOS 13.0 (22A380)
 ## 1. Pico Setup
 In this setp, the pico directory will be created.
 Command:

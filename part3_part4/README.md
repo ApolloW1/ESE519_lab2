@@ -5,4 +5,4 @@ The sequencer can obtain the value of register from the REPL in part 2 and also 
   
 The record will be in json file, while the replay will read the json file and show it by on and off of the Neopixel LED.
 # Part 4
-The timestamped transitions will be record and replayed. The speedup and slowdown are achieced by changing the sleep time.
+The timestamped transitions will be record and replayed. The speedup and slowdown of the record/replay are achieved by changing the sleep time.

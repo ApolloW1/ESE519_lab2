@@ -15,7 +15,8 @@ The initialization is achieved by function below:
         config[1] = ALS_TIME;
         pio_i2c_write_blocking(pio, sm, addr, config, len, false);
     }
-The data reading function is:
+    
+Read Function:
 
     void read_value(int32_t* red, int32_t* green, int32_t* blue, int32_t* clear, int32_t* prox, PIO pio, uint sm, uint8_t addr, bool nostop) {
 
@@ -35,5 +36,8 @@ The data reading function is:
         *red = (buffer[3] << 8) | buffer[2];
         *green = (buffer[5] << 8) | buffer[4];
         *blue = (buffer[7] << 8) | buffer[6];
+
     }
 
+## Result
+<img width="449" alt="截屏2022-11-18 下午5 49 14" src="https://user-images.githubusercontent.com/114015725/202816030-aacb0f16-4232-4556-a942-0229d0391c59.png">

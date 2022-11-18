@@ -2,6 +2,7 @@
 The sequencer is used for controlling the sensor with implementation of ADPS9960 protocol.
 
 '''
+
 void APDS9960_init(PIO pio, uint sm,uint8_t addr, bool nostop) {
 
     // initialize the APDS9960 based on the datasheet

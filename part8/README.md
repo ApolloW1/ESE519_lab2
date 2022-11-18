@@ -1,5 +1,5 @@
 # Part 8
-The sequencer is used for controlling the sensor with implementation of ADPS9960 protocol.
+The sequencer is used for reading the sensor with implementation of ADPS9960 protocol.
 
 The initialization is achieved by function below:
 
